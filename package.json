@@ -1,0 +1,28 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "For fun",
+  "main": "index.js",
+  "repository": {},
+  "author": "KuanYu Chu",
+  "license": "MIT",
+  "scripts": {
+    "start": "echo 'please run `npm run dev` in one tab and then `npm run app` in another one'",
+    "app": "electron app",
+    "dev": "webpack -w"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "cross-env": "^3.1.4",
+    "electron": "^1.4.15",
+    "webpack": "^2.2.1"
+  }
+}
